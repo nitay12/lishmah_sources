@@ -4,7 +4,7 @@
     <header class="bg-white shadow-sm border-b border-gray-200 mb-6">
       <div class="container mx-auto px-4 py-6">
         <div class="flex justify-between items-center">
-          <h1 class="text-3xl font-bold text-gray-800">מקורות בקליק 📚</h1>
+          <h1 class="text-3xl font-bold text-gray-800">מקורות - לשמה</h1>
           <router-link
             to="/login"
             class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition-colors duration-200"
@@ -12,7 +12,7 @@
             התחברות
           </router-link>
         </div>
-        <p class="text-gray-600 mt-2">דפי מקורות תורניים לתלמידי הישיבה</p>
+        <p class="text-gray-600 mt-2">דפי מקורות תורניים מאת הרב בנימין טבדי</p>
       </div>
     </header>
 

@@ -11,20 +11,20 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView,
-    meta: { title: 'מקורות בקליק - דפי מקורות תורניים' }
+    meta: { title: 'מקורות - לשמה' }
   },
   {
     path: '/login',
     name: 'login',
     component: LoginView,
-    meta: { title: 'התחברות - מקורות בקליק' }
+    meta: { title: 'התחברות - מקורות - לשמה' }
   },
   {
     path: '/admin',
     name: 'admin',
     component: AdminView,
     meta: {
-      title: 'ניהול - מקורות בקליק',
+      title: 'ניהול - מקורות - לשמה',
       requiresAuth: true
     },
     beforeEnter: (to, from, next) => {
@@ -47,7 +47,7 @@ const router = createRouter({
 
 // Update document title on route change
 router.afterEach((to) => {
-  document.title = to.meta.title || 'מקורות בקליק';
+  document.title = to.meta.title || 'מקורות - לשמה';
 });
 
 export default router;

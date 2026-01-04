@@ -1,8 +1,14 @@
 import axios from 'axios';
 
 // Create axios instance with configuration
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
+
+// Debug: Log the base URL to help diagnose production issues
+console.log('[API Config] Base URL:', baseURL);
+console.log('[API Config] Env var value:', import.meta.env.VITE_API_BASE_URL);
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000',
+  baseURL,
   timeout: 30000, // 30 seconds for Render wake-up
   headers: {
     'Content-Type': 'application/json'

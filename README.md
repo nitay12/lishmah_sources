@@ -194,7 +194,7 @@ App runs on http://localhost:5173
    vercel --prod
    ```
 3. Set environment variable:
-   - `VITE_API_BASE_URL`: Your Render backend URL
+   - `VITE_API_BASE_URL`: Your Render backend URL (e.g., `https://your-app.onrender.com` - do NOT include `/api`)
 
 ### Database (Neon Tech)
 
