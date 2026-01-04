@@ -24,7 +24,7 @@
       <!-- Loading State -->
       <LoadingState
         v-if="sheetsStore.loading"
-        message="מעיר את השרת, אנא המתן..."
+        message="טוען נתונים"
       />
 
       <!-- Error State -->
