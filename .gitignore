@@ -1,75 +1,49 @@
 # Dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+*/node_modules/
 
-# Environment Variables
+# Environment variables
 .env
 .env.local
 .env.*.local
-.env.production
-.env.development
+backend/.env
+frontend/.env
 
-# Build Output
+# Build outputs
 dist/
-dist-ssr/
 build/
-*.local
-
-# IDE / Editor
-.vscode/*
-!.vscode/extensions.json
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-*.sublime-workspace
-*.sublime-project
-
-# OS Files
-Thumbs.db
-Desktop.ini
-.DS_Store
-.AppleDouble
-.LSOverride
+*/dist/
+*/build/
 
 # Logs
-logs/
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
 
 # Testing
 coverage/
-*.lcov
-.nyc_output/
-
-# Temporary Files
-*.tmp
-*.temp
-.cache/
-.parcel-cache/
-.vite/
-
-# Database
-*.sql
-*.sqlite
-*.db
-
-# Uploads (if any local temp files)
-uploads/
-temp/
 
 # Production
-.vercel
-.netlify
-.render
-
-# Misc
-.eslintcache
-.vite-inspect
+*.tgz
